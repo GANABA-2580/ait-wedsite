@@ -1,0 +1,395 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*-----HEADER----*/
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)), url(./images/banner.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    word-spacing: 20px;
+    text-transform: uppercase;
+}
+
+nav img {
+    padding-top: 10px;
+    width: 150px;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    list-style: none; 
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    transition-duration: 2s;
+   
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid red;
+}
+
+.text-box {
+    text-align: center;
+    padding-top: 350px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+
+.text-box h1 {
+    text-transform: capitalize;
+    font-size: 60px;
+}
+
+.text-box button {
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 1px;
+    border: 1px solid white;
+    background: none;
+    transition-duration: 1s;
+}
+
+.text-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-box button:hover  {
+    background-color: red;
+    border: 1px solid white;
+}
+
+/*-----HEADER END----*/
+
+/*-----COURSE----*/
+
+.courses {
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.courses h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.row {
+    width: 80%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.row-col {
+   padding: 10px;
+   margin: 10px;
+   background-color: rgb(236, 201, 214);
+   border-radius: 5%;
+}
+
+.row-col h3 {
+    padding: 20px;
+}
+
+.row-col p {
+    padding: 0 18px;
+    padding-bottom: 10px;
+}
+
+.row-col:hover {
+    box-shadow: 0 0 20px 0px rgb(124, 122, 122);
+}
+/*-----COURSE END----*/
+
+/*-----COMPUS----*/
+.compus {
+    text-align: center;
+}
+
+.compus h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.compus-col {
+    padding: 10px;
+    position: relative ;
+    overflow: hidden;
+}
+
+.compus-col img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.layer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+    border-radius: 5%;
+}
+
+.layer h3 {
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+/*-----COMPUS END----*/
+
+/*-----FACILITIES----*/
+.facilities {
+    text-align: center;
+    padding: 10px;
+}
+
+.facilities h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.facilities-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities-col {
+    padding: 10px;
+    text-align: left;
+}
+
+.facilities-col h3 {
+    padding: 15px 0;
+}
+/*-----FACILITIES END----*/
+
+/*------TESTIMONIALS----*/
+
+.Testimonials {
+    text-align: center;
+    padding: 10px;
+}
+.Testimonials h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.testimonial-col {
+    background-color: rgb(236, 201, 214);
+    padding: 25px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    margin: 10px;
+}
+
+.testimonial-col h3 {
+    padding-top: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 15px -0;
+}
+
+.testimonial-col p {
+    padding: 0;
+}
+
+.testimonial-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+    padding: 5px 0;
+}
+
+.fa-solid {
+    color: red;
+}
+
+.fa-regular {
+    color: red;
+}
+
+/*------TESTIMONIALS END----*/
+
+/*------WHAT WE DO----*/
+.wtd {
+    margin: 50px auto;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/banner2.jpg) ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 80px 0;
+    color: white;
+    font-size: 25px;
+}
+
+.wtd button {
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 1px;
+    border: 1px solid white;
+    background: none;
+    transition-duration: 1s;
+}
+
+.wtd a {
+    color: white;
+    text-decoration: none;
+}
+
+.wtd button:hover  {
+    background-color: red;
+    border: 1px solid white;
+}
+/*------WHAT WE DO END----*/
+
+.footer {
+    text-align: center;
+}
+
+.footer h3 {
+    padding: 20px 0;
+}
+
+.icon  {
+    padding: 20px 0;
+    word-spacing: 20px;
+    color: red;
+}
+
+
+
+
+@media only screen and ( max-width:767px) {
+/*-------HEADER-------*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+nav img {
+    width: 90px;
+    padding-top: 10px;
+}
+
+.nav-links ul li {
+    font-size: 9px;
+    display: inline-block;
+    list-style: none; 
+}
+    .text-box {
+        text-align: center;
+        padding-top: 300px;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: white;
+    }
+
+
+    .text-box h1 {
+        text-transform: capitalize;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .text-box p {
+        font-size: 10px;
+    }
+
+/*-------HEADER-------*/
+
+/*-----COURSE----*/
+.row {
+    width: 80%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 6.5px;
+}
+
+.row-col {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(236, 201, 214);
+ }
+
+ .row-col h3 {
+    padding: 10px;
+}
+
+.row-col p {
+    padding: 0 9px;
+    padding-bottom: 25px;
+}
+
+/*-----COURSE END----*/
+
+/*---------facilities--------*/
+
+.facilities h3 {
+    font-size: 10px;
+}
+.facilities p {
+    font-size:12px ;
+}
+/*---------facilities END--------*/
+
+.wtd h1 {
+    font-size: 30px;
+}
+}
+
+/*-----wtd-----*/
+
+
